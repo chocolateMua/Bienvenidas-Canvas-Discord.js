@@ -9,7 +9,7 @@ module.exports = async (member) => {
 
   const embed = new EmbedBuilder() // USAMOS EMBEDBUILDER PARA CREAR LA BIENVENIDA
     .setTitle(`${member.user.displayName} bienvenido a la comunidad ✨`) // COLOCAMOS UN TITULO AL EMBED INDICANDO QUE USUARIO SE UNIO
-    .setColor("Blurple") // ESTABLECEMOS EL COLOR DEL EMBED POR DEFECTO ESTA EN AZUL
+    .setColor("Random") // ESTABLECEMOS EL COLOR DEL EMBED POR DEFECTO ESTA EN AZUL
     .setDescription(
       `Nos alegra de recibirte en la comunidad, recuerda hecharle un vistaso a los canales de verificación y chats del servidor para poder compartir experiencia con la comunidad!
         
