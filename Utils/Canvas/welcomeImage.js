@@ -86,7 +86,7 @@ module.exports = async (member) => {
   ctx.fill();
 
   // AVATAR DEL USUARIO
-  ctx.shadowColor = "transpant";
+  ctx.shadowColor = "transparent";
 
   ctx.beginPath();
   ctx.arc(
