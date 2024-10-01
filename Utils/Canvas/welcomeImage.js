@@ -106,5 +106,5 @@ module.exports = async (member) => {
     avatarRadius * 2
   );
 
-  return canvas.toBuffer();
+  return canvas.toBuffer("image/png");
 };
